@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v3
+
+      - name: 🧱 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+          cache: "yarn"
+
+      - name: 🔧 Install dependencies
+        run: yarn --immutable
+
+      - name: 🔀 Dedupe dependencies
+        run: yarn dedupe -c
+
+      - name: 👕 Lint source files
+        run: yarn lint
+
+      - name: 🧼 Clean build artifacts
+        run: yarn clean
+
+      - name: 🏗️ Build
+        run: yarn build

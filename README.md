@@ -7,6 +7,7 @@ This repository is a template for [JavaScript](https://en.wikipedia.org/wiki/Jav
 - 🏷️ [TypeScript](https://www.typescriptlang.org)
 - 📦 [Yarn](https://yarnpkg.com)
 - 👕 [Prettier](https://prettier.io)
+- 👷 [GitHub Actions](https://docs.github.com/en/actions) build workflow
 - 📄 [ISC license](https://en.wikipedia.org/wiki/ISC_license)
 
 ## Metadata
