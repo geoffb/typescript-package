@@ -1,8 +1,14 @@
 {
-  "extends": "./tsconfig-es.json",
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "outDir": "dist/cjs"
-  }
+	"compilerOptions": {
+		"target": "es2018",
+		"lib": ["es6"],
+		"module": "es6",
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"strict": true,
+		"removeComments": true,
+		"outDir": "dist",
+		"declaration": true
+	},
+	"include": ["src/**/*.ts"]
 }
