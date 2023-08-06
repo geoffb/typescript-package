@@ -4,8 +4,9 @@ _NOTE: Replace this file's contents with your own [changelog](https://keepachang
 
 ## 0.2.0
 
-- 👕 Add Prettier
 - ⬆️ Upgrade TypeScript
+- ⬆️ Upgrade Yarn
+- 👕 Add Prettier
 - 💥 Remove ESLint
 - 💥 Remove Tape
 - 💥 Remove CommonJS support

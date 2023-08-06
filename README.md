@@ -1,10 +1,11 @@
-# Template: TypeScript Package
+# TypeScript Package Template
 
-This repository is a template for [JavaScript](https://en.wikipedia.org/wiki/JavaScript) packages written in [TypeScript](https://www.typescriptlang.org) and distributed via services like [npm](https://www.npmjs.com).
+This repository is a template for [JavaScript](https://en.wikipedia.org/wiki/JavaScript) packages written in [TypeScript](https://www.typescriptlang.org) and distributed via registries like [npm](https://www.npmjs.com).
 
 ## Features
 
 - 🏷️ [TypeScript](https://www.typescriptlang.org)
+- 📦 [Yarn](https://yarnpkg.com)
 - 👕 [Prettier](https://prettier.io)
 - 📄 [ISC license](https://en.wikipedia.org/wiki/ISC_license)
 
