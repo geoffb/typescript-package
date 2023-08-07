@@ -13,6 +13,7 @@
 	],
 	"scripts": {
 		"build": "tsc",
+		"dev": "tsc -w",
 		"clean": "rm -rf dist",
 		"lint": "prettier -c .",
 		"format": "prettier -w ."
